@@ -1,0 +1,90 @@
+/* BottomPart.css */
+
+.bottom-part {
+    background-color: #00b7eb; 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -24px;
+    justify-content: space-around;
+    width: 100%;
+
+  }
+  .title{
+    display: flex;
+    text-align: center;
+   width: 300px;
+    background-color: #fff;
+    margin-top: -30px;
+    
+  }
+  .section-title {
+    text-align: center;
+    position: absolute;
+    color: black;
+    background-color: white;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 7%;
+    padding: 5px;
+    
+  }
+  
+  .post-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 30vh;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .post-card {
+    width: 180px;
+    height: 24vh;
+    margin-bottom: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .post-card:hover img{
+    transform: scale(1.1);
+    transform: 0.5s ease all;
+  }
+  .post-card:hover{
+    transform: scale(1.3);
+  }
+.post-image{
+    max-height: 60%;
+    overflow: hidden;
+    align-items: center;
+    object-fit: cover;
+    max-width: 100%;
+}
+  
+  .post-description {
+    display: flex;
+    justify-content: left;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 15px;
+    color: #00b7eb;
+    font-weight: 19px;
+  }
+  
